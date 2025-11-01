@@ -1,17 +1,17 @@
-# WebSocket Client Application
+# Fleet management Client Application
 
 This project is a React application that connects to a WebSocket server to receive messages and play audio files. It also displays the user's current geographical location.
 
 ## Features
 
-- Connects to a WebSocket server.
+- Connects to a Fleet management server.
 - Plays .mp3 audio files upon successful connection.
 - Displays the user's current latitude and longitude.
 
 ## Project Structure
 
 ```
-websocket-client
+fleet-management-client
 ├── src
 │   ├── components
 │   │   ├── AudioPlayer.tsx
@@ -36,7 +36,7 @@ websocket-client
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd websocket-client
+   cd fleet-management-client
    ```
 
 2. Install dependencies:
